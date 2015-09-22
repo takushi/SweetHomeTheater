@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1CBB657D1BB14E4C00D17284 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB657C1BB14E4C00D17284 /* main.swift */; };
+		1CBB65851BB14F9800D17284 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB65841BB14F9800D17284 /* Screen.swift */; settings = {ASSET_TAGS = (); }; };
+		1CBB65871BB1505B00D17284 /* PopcornPopper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB65861BB1505B00D17284 /* PopcornPopper.swift */; settings = {ASSET_TAGS = (); }; };
+		1CBB65891BB150F300D17284 /* TheaterLights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB65881BB150F300D17284 /* TheaterLights.swift */; settings = {ASSET_TAGS = (); }; };
+		1CBB658B1BB151DA00D17284 /* Amplifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB658A1BB151DA00D17284 /* Amplifier.swift */; settings = {ASSET_TAGS = (); }; };
+		1CBB65911BB152AD00D17284 /* DvdPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB65901BB152AD00D17284 /* DvdPlayer.swift */; settings = {ASSET_TAGS = (); }; };
+		1CBB65931BB1536B00D17284 /* Projector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB65921BB1536B00D17284 /* Projector.swift */; settings = {ASSET_TAGS = (); }; };
+		1CBB65951BB153C900D17284 /* HomeTheaterFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBB65941BB153C900D17284 /* HomeTheaterFacade.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		1CBB65791BB14E4C00D17284 /* SweetHomeTheater */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SweetHomeTheater; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBB657C1BB14E4C00D17284 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1CBB65841BB14F9800D17284 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		1CBB65861BB1505B00D17284 /* PopcornPopper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopcornPopper.swift; sourceTree = "<group>"; };
+		1CBB65881BB150F300D17284 /* TheaterLights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheaterLights.swift; sourceTree = "<group>"; };
+		1CBB658A1BB151DA00D17284 /* Amplifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amplifier.swift; sourceTree = "<group>"; };
+		1CBB65901BB152AD00D17284 /* DvdPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DvdPlayer.swift; sourceTree = "<group>"; };
+		1CBB65921BB1536B00D17284 /* Projector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projector.swift; sourceTree = "<group>"; };
+		1CBB65941BB153C900D17284 /* HomeTheaterFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTheaterFacade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +72,23 @@
 			isa = PBXGroup;
 			children = (
 				1CBB657C1BB14E4C00D17284 /* main.swift */,
+				1CBB65941BB153C900D17284 /* HomeTheaterFacade.swift */,
+				1CBB65831BB14F8800D17284 /* SubSystem */,
 			);
 			path = SweetHomeTheater;
+			sourceTree = "<group>";
+		};
+		1CBB65831BB14F8800D17284 /* SubSystem */ = {
+			isa = PBXGroup;
+			children = (
+				1CBB65841BB14F9800D17284 /* Screen.swift */,
+				1CBB65861BB1505B00D17284 /* PopcornPopper.swift */,
+				1CBB65881BB150F300D17284 /* TheaterLights.swift */,
+				1CBB658A1BB151DA00D17284 /* Amplifier.swift */,
+				1CBB65901BB152AD00D17284 /* DvdPlayer.swift */,
+				1CBB65921BB1536B00D17284 /* Projector.swift */,
+			);
+			name = SubSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +148,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CBB657D1BB14E4C00D17284 /* main.swift in Sources */,
+				1CBB65911BB152AD00D17284 /* DvdPlayer.swift in Sources */,
+				1CBB658B1BB151DA00D17284 /* Amplifier.swift in Sources */,
+				1CBB65871BB1505B00D17284 /* PopcornPopper.swift in Sources */,
+				1CBB65951BB153C900D17284 /* HomeTheaterFacade.swift in Sources */,
+				1CBB65891BB150F300D17284 /* TheaterLights.swift in Sources */,
+				1CBB65851BB14F9800D17284 /* Screen.swift in Sources */,
+				1CBB65931BB1536B00D17284 /* Projector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
